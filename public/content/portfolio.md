@@ -40,7 +40,7 @@ Delivered blockchain-based financial solu ons with a focus on stability and scal
 Owned feature roadmap for data integration platform and designed data flow from data scrubbers to DWH.
 
 ### Lead Data Engineer – Adotube / Exponential (2013–2016)  
-Built and opmized adver sing analy cs pla orm processing billions of events.
+Built and opmized advertising analytics platform processing billions of events.
 
 ### Team Leader & DWH Architect - SoftServe (2010-2013)
 Led data modernization efforts in finance and education sectors with predictive analysis.
@@ -57,7 +57,7 @@ System administration (Linux, Wndows) and Databases Administration
 
 ---
 
-## [📄 Download Resume](%PUBLIC_URL%/resume/Resume_BogdanBalikhin_Engineering_Manager_2025.pdf)
+## [📄 Download Resume](resume/Resume_BogdanBalikhin_Engineering_Manager_2025.pdf)
 
 ---
 

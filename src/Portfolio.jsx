@@ -16,8 +16,10 @@ export default function Portfolio() {
         components={{
           a: ({ node, ...props }) => {
             let href = props.href || '';
-            href = href.replace('%PUBLIC_URL%', process.env.PUBLIC_URL);
-            href = href.replace('%25PUBLIC_URL%25', process.env.PUBLIC_URL); // защита от URL-энкодинга
+            // Принудительно заменяем %PUBLIC_URL% на /bogdan-portfolio
+            if (href.includes('%PUBLIC_URL%') || href.includes('%25PUBLIC_URL%25')) {
+              href = href.replace(/%PUBLIC_URL%|%25PUBLIC_URL%25/g, '/bogdan-portfolio');
+            }
             return <a {...props} href={href} />;
           },
         }}
