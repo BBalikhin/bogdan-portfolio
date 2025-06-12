@@ -57,7 +57,7 @@ System administration (Linux, Wndows) and Databases Administration
 
 ---
 
-## [📄 Download Resume](bogdan-portfolio/resume/Resume_BogdanBalikhin_Engineering_Manager_2025.pdf)
+## [📄 Download Resume](!!!bogdan-portfolio/resume/Resume_BogdanBalikhin_Engineering_Manager_2025.pdf)
 
 ---
 
