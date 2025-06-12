@@ -15,7 +15,9 @@ export default function Portfolio() {
       <ReactMarkdown
         components={{
           a: ({ node, ...props }) => {
-            const href = props.href?.replace('%PUBLIC_URL%', process.env.PUBLIC_URL);
+            let href = props.href || '';
+            href = href.replace('%PUBLIC_URL%', process.env.PUBLIC_URL);
+            href = href.replace('%25PUBLIC_URL%25', process.env.PUBLIC_URL); // защита от URL-энкодинга
             return <a {...props} href={href} />;
           },
         }}
