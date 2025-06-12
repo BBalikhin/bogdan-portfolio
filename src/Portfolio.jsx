@@ -1,6 +1,4 @@
-﻿import { Button } from "@/components/ui/button";
-
-export default function Portfolio() {
+﻿export default function Portfolio() {
   return (
     <main className="max-w-4xl mx-auto p-6 font-sans text-gray-900 space-y-10">
       <header className="space-y-2">
