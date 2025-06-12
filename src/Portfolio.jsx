@@ -65,7 +65,7 @@
       <section>
         <h2 className="text-2xl font-semibold mb-2">Resume</h2>
         <a
-          href="/resume/Resume_BogdanBalikhin_Engineering_Manager_2025.pdf"
+          href={'${process.env.PUBLIC_URL}/resume/Resume_BogdanBalikhin_Engineering_Manager_2025.pdf'}
           download
           className="text-blue-600 hover:underline"
         >
